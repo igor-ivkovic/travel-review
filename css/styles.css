@@ -1,0 +1,61 @@
+.slide1 {
+  background-image: url('../images/greenberg-compressor.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide2 {
+  background-image: url('../images/desert-compressor.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide3 {
+  background-image: url('../images/wave-compressor.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+.top-distance {
+  margin-top: 20px;
+}
+
+div.page-header {
+  margin-bottom: 40px;
+  border-bottom: dashed;
+}
+
+.hohoho {
+  margin-bottom: 100px;
+}
+
+.green-border {
+  border-color: green;
+}
+
+.green {
+  background-color: #52ac52;
+  text-align: center;
+}
+
+#void {
+  margin: 0;
+}
+
+#big {
+  font-size: 8em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}

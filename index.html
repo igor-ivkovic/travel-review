@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stuff</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Travel Site</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Destinations
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Montains</a></li>
+              <li><a href="#">Deserts</a></li>
+              <li><a href="#">Seas</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Prices</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Define how many slides to put in the carousel -->
+      <ol class="carousel-indicators">
+        <li data-target="#theCarousel" data-slide-to="0" class="active"> </li >
+        <li data-target="#theCarousel" data-slide-to="1"> </li>
+        <li data-target ="#theCarousel" data-slide-to="2"> </li>
+      </ol >
+
+      <!-- Define the text to place over the image -->
+      <div class="carousel-inner">
+        <div class="item active" >
+          <div class ="slide1"></div>
+          <div class="carousel-caption">
+            <h1>Amazing Mountains</h1>
+            <p>Thousands of mountains to visit</p>
+            <p><a href="#" class="btn btn-primary btn-sm">Travel Now</a></p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide2"></div>
+          <div class="carousel-caption">
+            <h1>Awesome Deserts</h1>
+            <p>If you go to a desert bring water</p>
+            <p><a href="#" class="btn btn-primary btn-sm">Travel Now</a></p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide3"></div>
+          <div class="carousel-caption">
+          <h1>Ride The Waves</h1>
+          <p>Surfing is the best way to relax</p>
+          <p><a href="#" class="btn btn-primary btn-sm">Travel Now</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Set the actions to take when the arrows are clicked -->
+      <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"> </span>
+      </a>
+      <a class="right carousel-control" href="#theCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 top-distance">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 top-distance">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 top-distance">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 top-distance">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+
+      <div class="hohoho">
+        <div class="page-header text-center">
+          <h2>Give Us A Review</h2>
+        </div>
+        <form id="formi" method="post" action="#">
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+              0% Complete (success)
+            </div>
+          </div>
+
+          <div class="input-group input-group-md top-distance">
+            <input type="text" oninput="$('#namebut').removeClass('disabled');" class="form-control" placeholder="Enter your name">
+            <span class="input-group-btn">
+              <button id="namebut" class="btn btn-primary disabled" type="button">Start</button>
+            </span>
+          </div><br>
+
+          <div id="email-div" class="input-group input-group-md hidden">
+            <input type="text" oninput="$('#emailbut').removeClass('disabled');" class="form-control" placeholder="Enter your e-mail">
+            <span class="input-group-btn">
+              <button id="emailbut" class="btn btn-primary disabled" type="button">Send</button>
+            </span>
+          </div><br>
+
+          <div id="rating-div" class="form-group hidden">
+            <select id="rating-sel" class="form-control">
+              <option id="nothing">Rating</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div><br />
+
+          <div id="review-div" class="form-group hidden">
+            <textarea class="form-control" rows="5" id="review" placeholder="Enter your review"></textarea>
+          </div>
+
+          <div id="check-div" class="checkbox hidden">
+            <label><input type="checkbox">Accept Terms</label>
+          </div>
+
+
+          <input id="sub" class="hidden" type="submit">
+        </form>
+        <div id="void"></div>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/java.js" type="text/javascript"></script>
+  </body>
+</html>
